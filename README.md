@@ -10,7 +10,10 @@ A simple and powerful command-line tool to hierarchically sort and scope domains
 * **Flexible Input**: Reads from a file (`-f`) or from stdin.
 
 ## Installation
-
+```bash
+go install -v github.com/w00lfff/domsort@latest
+```
+or
 ```bash
 # Clone or download the domsort.go file, then run:
 go build domsort.go
