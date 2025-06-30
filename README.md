@@ -2,13 +2,6 @@
 
 A simple and powerful command-line tool to hierarchically sort and scope domains. It automatically discovers parent domains and filters them based on a specified scope, making it perfect for cleaning up subdomain lists for reconnaissance.
 
-## Features
-
-* **Hierarchical Sorting**: Sorts domains from the root down (e.g., `example.com` before `sub.example.com`).
-* **Parent Discovery**: Automatically finds and adds parent domains (e.g., finds `example.com` from `sub.example.com`).
-* **Scope Filtering**: Use the `-d` flag to only show domains that belong to a specific scope.
-* **Flexible Input**: Reads from a file (`-f`) or from stdin.
-
 ## Installation
 ```bash
 go install -v github.com/w00lfff/domsort@latest
